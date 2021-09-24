@@ -16,6 +16,21 @@ class CreateUsersTable extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+
+            $table->unsignedBigInteger('idgroupe');
+            $table->foreign('idgroupe')
+            ->references('id')
+            ->on('groupes')
+            ->onDelete('restrict')
+            ->onUpdate('restrict');
+
+            $table->unsignedBigInteger('idtypeuser');
+            $table->foreign('idtypeuser')
+            ->references('id')
+            ->on('typeusers')
+            ->onDelete('restrict')
+            ->onUpdate('restrict');
+
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');

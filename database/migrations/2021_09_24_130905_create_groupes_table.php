@@ -15,6 +15,14 @@ class CreateGroupesTable extends Migration
     {
         Schema::create('groupes', function (Blueprint $table) {
             $table->id();
+            $table->string('nomgroupe');
+            $table->string('nombreeleve');
+            $table->unsignedBigInteger('idfiliere');
+            $table->foreign('idfiliere')
+            ->references('id')
+            ->on('filieres')
+            ->onDelete('restrict')
+            ->onUpdate('restrict');
             $table->timestamps();
         });
     }

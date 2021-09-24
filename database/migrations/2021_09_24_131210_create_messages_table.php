@@ -15,6 +15,21 @@ class CreateMessagesTable extends Migration
     {
         Schema::create('messages', function (Blueprint $table) {
             $table->id();
+
+            $table->unsignedBigInteger('iduser');
+            $table->foreign('iduser')
+            ->references('id')
+            ->on('users')
+            ->onDelete('restrict')
+            ->onUpdate('restrict');
+
+            $table->unsignedBigInteger('idtypemessage');
+            $table->foreign('idtypemessage')
+            ->references('id')
+            ->on('typemessages')
+            ->onDelete('restrict')
+            ->onUpdate('restrict');
+
             $table->timestamps();
         });
     }

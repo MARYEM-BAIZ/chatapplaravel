@@ -15,6 +15,7 @@ class CreateTypeusersTable extends Migration
     {
         Schema::create('typeusers', function (Blueprint $table) {
             $table->id();
+            $table->string('typeuser');
             $table->timestamps();
         });
     }

@@ -58,4 +58,23 @@ class User extends Authenticatable
     protected $appends = [
         'profile_photo_url',
     ];
+
+
+ 
+    public function messages(){
+        return $this->hasMany(Message::class);
+    }
+
+    public function typeuser(){
+        return $this->belongsTo(Typeuser::class);
+    }
+
+    public function groupe(){
+        return $this->belongsTo(Groupe::class);
+    }
+
+    
+
+
+
 }

@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Filiere extends Model
 {
     use HasFactory;
+
+
+    public function groupes(){
+        return $this->hasMany(Groupe::class);
+    }
+
+
 }
