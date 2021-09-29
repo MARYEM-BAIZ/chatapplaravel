@@ -30,4 +30,5 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 /* ########################### */
 
-Route::get('/template',['uses'=>'Controller@accueil','as'=>'accueil.accueil']);
+Route::get('/template',['uses'=>'Controller@template','as'=>'template.template']);
+Route::get('/accueil',['uses'=>'Controller@accueil','as'=>'accueil.accueil']);

@@ -18,10 +18,20 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
 
-    public function accueil(){
+    public function template(){
 
         return view('template');
 
     }
+
+    public function accueil(){
+
+        return view('accueil');
+
+    }
+
+    
+
+    
 
 }
