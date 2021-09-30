@@ -12,12 +12,12 @@ Discussion
       <div class="bg-white">
 
         <div class="bg-gray px-4 py-2 bg-light">
-          <p class="h5 mb-0 py-1">Recent</p>
+          <p class="h5 mb-0 py-1">Récent</p>
         </div>
 
         <div class="messages-box">
           <div class="list-group rounded-0">
-            <a class="list-group-item list-group-item-action active text-white rounded-0">
+            <a href="#" class="list-group-item list-group-item-action list-group-item-light rounded-0">
               <div  class="media"><img src="img/img1.jpg" alt="user" style=" width: 70px; height: 70px; border-radius: 50%; float:left; margin-right:20px;" >
                 <div  class="media-body ">
                   <div class="d-flex align-items-center justify-content-between mb-1">
@@ -113,73 +113,94 @@ Discussion
     <div class="col-7 px-0">
       <div class="px-4 pt-4 chat-box bg-white">
         <!-- Sender Message-->
-        <div class="media w-75 "><img src="img/img1.jpg" alt="user" style=" width: 60px; height: 60px; border-radius: 50%; float:left; margin-right:20px;">
-          <div class="media-body ">
+        <div class="container ">
+          <div class="row">
+          <div class="col-2"><img src="img/img1.jpg" alt="user" style=" width: 60px; height: 60px; border-radius: 50%;  "></div>
+          <div class="col-6 ">
             <div class="bg-light rounded py-2 px-3 mb-2">
               <p class="text-small mb-0 text-muted">Test which is a new approach all solutions</p>
             </div>
             <p class="small text-muted">12:00 PM | Aug 13</p>
           </div>
+          <div class="col-4"></div>
+          </div>
         </div>
 
         <!-- Reciever Message-->
-        <div class="media w-75  ">
-          <div class="media-body">
+        <div class="container ">
+        <div class="row  ">
+          <div class="col-6"></div>
+          <div class="col-6 ">
             <div class="bg-primary rounded py-2 px-3 mb-2">
-              <p class="text-small mb-0 text-white">Test which is a new approach to have all solutions</p>
+              <p class="text-small mb-0 text-white ">Test which is a new approach to have all solutions</p>
             </div>
             <p class="small text-muted">12:00 PM | Aug 13</p>
           </div>
         </div>
+        </div>
 
         <!-- Sender Message-->
-        <div class="media w-75 "><img src="img/img1.jpg" alt="user" style=" width: 60px; height: 60px; border-radius: 50%; float:left; margin-right:20px;">
-          <div class="media-body ">
+        <div class="container">
+        <div class="row ">
+          <div class="col-2"><img src="img/img1.jpg" alt="user" style=" width: 60px; height: 60px; border-radius: 50%; float:left; margin-right:20px;"></div>
+          <div class="col-6 ">
             <div class="bg-light rounded py-2 px-3 mb-2">
               <p class="text-small mb-0 text-muted">Test, which is a new approach to have</p>
             </div>
             <p class="small text-muted">12:00 PM | Aug 13</p>
           </div>
+          <div class="col-4"></div>
+        </div>
         </div>
 
         <!-- Reciever Message-->
-        <div class="media w-75 ">
-          <div class="media-body">
+        <div class="container">
+        <div class="row ">
+        <div class="col-6"></div>
+          <div class="col-6">
             <div class="bg-primary rounded py-2 px-3 mb-2">
               <p class="text-small mb-0 text-white">Apollo University, Delhi, India Test</p>
             </div>
             <p class="small text-muted">12:00 PM | Aug 13</p>
           </div>
         </div>
+        </div>
 
         <!-- Sender Message-->
-        <div class="media w-75 "><img src="img/img1.jpg" alt="user" style=" width: 60px; height: 60px; border-radius: 50%; float:left; margin-right:20px;">
-          <div class="media-body ">
+        <div class="container">
+        <div class="row ">
+          <div class="col-2"><img src="img/img1.jpg" alt="user" style=" width: 60px; height: 60px; border-radius: 50%; float:left; margin-right:20px;"></div>
+          <div class="col-6 ">
             <div class="bg-light rounded py-2 px-3 mb-2">
               <p class="text-small mb-0 text-muted">Test, which is a new approach</p>
             </div>
             <p class="small text-muted">12:00 PM | Aug 13</p>
           </div>
+          <div class="col-4"></div>
+        </div>
         </div>
 
         <!-- Reciever Message-->
-        <div class="media w-75 ">
-          <div class="media-body">
+       <div class="container">
+       <div class="row ">
+       <div class="col-6"></div>
+          <div class="col-6">
             <div class="bg-primary rounded py-2 px-3 mb-2">
               <p class="text-small mb-0 text-white">Apollo University, Delhi, India Test</p>
             </div>
             <p class="small text-muted">12:00 PM | Aug 13</p>
           </div>
         </div>
+       </div>
 
       </div>
 
       <!-- Typing area -->
       <form action="#" class="bg-light">
-        <div class="input-group">
-          <input type="text" placeholder="Type a message" aria-describedby="button-addon2" class="form-control rounded-0 border-0 py-4 bg-light">
+        <div class="input-group px-4">
+          <input type="text" placeholder="Tapez un message" aria-describedby="button-addon2" class="form-control rounded-0 border-0 py-4 bg-light">
           <div class="input-group-append">
-            <button id="button-addon2" type="submit" class="btn btn-link"> <i class="fa fa-paper-plane"></i></button>
+            <button id="button-addon2" type="submit" class="btn btn-link"> <i class="fa fa-paper-plane fa-lg"></i></button>
           </div>
         </div>
       </form>
