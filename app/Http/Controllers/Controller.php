@@ -36,6 +36,12 @@ class Controller extends BaseController
 
     }
 
+    public function discussion(){
+
+        return view('discussion');
+
+    }
+
     
 
     
