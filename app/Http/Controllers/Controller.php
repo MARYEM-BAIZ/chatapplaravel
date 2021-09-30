@@ -30,6 +30,12 @@ class Controller extends BaseController
 
     }
 
+    public function profile(){
+
+        return view('profile');
+
+    }
+
     
 
     

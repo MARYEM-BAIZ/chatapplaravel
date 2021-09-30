@@ -17,7 +17,7 @@ Accueil
 
 
                     <a 
-                    class="nav-link dropdown-toggle hidden-arrow"
+             style="text-decoration: none;"       class="nav-link dropdown-toggle hidden-arrow"
           href="#"
           id="navbarDropdownMenuLink"
           role="button"
@@ -76,7 +76,7 @@ Accueil
                         <p class="username">modern_web_channel</p>
                     </div>
                     <a
-                    class="nav-link dropdown-toggle hidden-arrow"
+               style="text-decoration: none;"    class="nav-link dropdown-toggle hidden-arrow"
           href="#"
           id="navbarDropdownMenuLink"
           role="button"
