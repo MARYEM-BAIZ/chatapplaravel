@@ -34,3 +34,5 @@ Route::get('/template',['uses'=>'Controller@template','as'=>'template.template']
 Route::get('/accueil',['uses'=>'Controller@accueil','as'=>'accueil.accueil']);
 Route::get('/profile',['uses'=>'Controller@profile','as'=>'profile.profile']);
 Route::get('/discussion',['uses'=>'Controller@discussion','as'=>'discussion.discussion']);
+Route::get('/register',['uses'=>'Controller@register','as'=>'register.register']);
+Route::get('/login',['uses'=>'Controller@login','as'=>'login.login']);

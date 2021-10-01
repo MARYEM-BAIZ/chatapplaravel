@@ -42,6 +42,18 @@ class Controller extends BaseController
 
     }
 
+    public function register(){
+
+        return view('register');
+
+    }
+
+    public function login(){
+
+        return view('login');
+
+    }
+
     
 
     

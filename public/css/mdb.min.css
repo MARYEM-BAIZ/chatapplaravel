@@ -321,3 +321,26 @@
     font-size: 0.9rem;
     color: #999;
   }
+
+
+
+   /* css du page register */
+
+  
+   /* css du page login */
+
+  .btn{
+    transition: all .5s ease;
+    border-radius: 30px;
+    color:var(--mdb-blue);
+    font-weight: 600;
+    background-color: #fff;
+    border: 1px solid var(--mdb-blue);
+    margin-top: 1.5em;
+    /* margin-bottom: 1em; */
+  }
+  .btn:hover, .btn:focus{
+    background-color: var(--mdb-blue);
+    color:#fff;
+  }
+  
