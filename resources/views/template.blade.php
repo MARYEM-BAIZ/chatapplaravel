@@ -61,7 +61,7 @@
      
 
       <li class="nav-item me-3 me-lg-1">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="{{route('invitation.invitation')}}">
           <span><i class="fas fa-users fa-lg"></i></span>
           <span class="badge rounded-pill badge-notification bg-danger">2</span>
         </a>
@@ -120,15 +120,69 @@
           class="dropdown-menu dropdown-menu-end"
           aria-labelledby="navbarDropdownMenuLink"
         >
-          <li>
-            <a class="dropdown-item" href="#">Some news</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Another news</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </li>
+       
+                    <div  id="notif" class="list list-row " >
+                        <div class="list-item" data-id="13" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false" style="">
+                        <div><a href="#" data-abc="true"><img style="border-radius:50%; width:40px;height:40px" src="img/img1.jpg" alt="."></a></div>
+                            <div class="flex"> <a href="#" class="item-author text-color" data-abc="true">Patrick Linod</a>
+                                <div class="item-except text-muted text-sm h-1x">For what reason would it be advisable for me to think about business content?</div>
+                            </div>
+                            <div class="no-wrap">
+                                <div class="item-date text-muted text-sm d-none d-md-block">3 weeks ago</div>
+                            </div>
+                            
+                        </div>
+                        <div class="list-item" data-id="9" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false">
+                            <div><a href="#" data-abc="true"><img style="border-radius:50%; width:40px;height:40px" src="img/img1.jpg" alt="."></a></div>
+                            <div class="flex"> <a href="#" class="item-author text-color" data-abc="true">Steven Hmpire</a>
+                                <div class="item-except text-muted text-sm h-1x">Build a progressive web app using jQuery</div>
+                            </div>
+                            <div class="no-wrap">
+                                <div class="item-date text-muted text-sm d-none d-md-block">2 days ago</div>
+                            </div>
+                            
+                        </div>
+                        <div class="list-item" data-id="17" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false" style="">
+                        <div><a href="#" data-abc="true"><img style="border-radius:50%; width:40px;height:40px" src="img/img1.jpg" alt="."></a></div>
+                            <div class="flex"> <a href="#" class="item-author text-color" data-abc="true">Alan musk</a>
+                                <div class="item-except text-muted text-sm h-1x">it be advisable for me to think about business content?</div>
+                            </div>
+                            <div class="no-wrap">
+                                <div class="item-date text-muted text-sm d-none d-md-block">13/12 18</div>
+                            </div>
+                            
+                        </div>
+                        <div class="list-item" data-id="8" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false">
+                            <div><a href="#" data-abc="true"><img style="border-radius:50%; width:40px;height:40px" src="img/img1.jpg" alt="."></a></div>
+                            <div class="flex"> <a href="#" class="item-author text-color" data-abc="true">Lawrence Telon</a>
+                                <div class="item-except text-muted text-sm h-1x">For what reason would it be advisable for me to think</div>
+                            </div>
+                            <div class="no-wrap">
+                                <div class="item-date text-muted text-sm d-none d-md-block">02/11 18</div>
+                            </div>
+                            
+                        </div>
+                        <div class="list-item" data-id="10" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false" style="">
+                            <div><a href="#" data-abc="true"><img style="border-radius:50%; width:40px;height:40px" src="img/img1.jpg" alt="."></a></div>
+                            <div class="flex"> <a href="#" class="item-author text-color" data-abc="true">Stuart Clark</a>
+                                <div class="item-except text-muted text-sm h-1x">For what reason would, i think about business content?</div>
+                            </div>
+                            <div class="no-wrap">
+                                <div class="item-date text-muted text-sm d-none d-md-block">1 day ago</div>
+                            </div>
+                          
+                        </div>
+                        <div class="list-item" data-id="3" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false">
+                            <div><a href="#" data-abc="true"><img style="border-radius:50%; width:40px;height:40px" src="img/img1.jpg" alt="."></a></div>
+                            <div class="flex"> <a href="#" class="item-author text-color" data-abc="true">Jordan Stephens</a>
+                                <div class="item-except text-muted text-sm h-1x">For what reason would it be advisable for me to think about business</div>
+                            </div>
+                            <div class="no-wrap">
+                                <div class="item-date text-muted text-sm d-none d-md-block">1 hour ago</div>
+                            </div>
+                            
+                        </div>
+                    </div>
         </ul>
       </li>
       <li class="nav-item dropdown me-3 me-lg-1">
@@ -147,7 +201,7 @@
           aria-labelledby="navbarDropdownMenuLink"
         >
           <li>
-            <a class="dropdown-item" href="{{route('profile.profile')}}">Paramétres</a>
+            <a class="dropdown-item" href="{{route('profile.profile')}}">Paramétres/Profile</a>
           </li>
           <li>
             <a class="dropdown-item" href="#">Déconnexion</a>
