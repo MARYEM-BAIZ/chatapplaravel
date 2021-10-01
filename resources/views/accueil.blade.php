@@ -11,8 +11,8 @@ Accueil
             <div class="post ">
                 <div class="info">
                     <div class="user">
-                        <div class="profile-pic"><img src="img/img1.jpg" alt=""></div>
-                        <p class="username">modern_web_channel</p>
+                        <div class="profile-pic"><a href=""><img src="img/img1.jpg" alt=""></a></div>
+                        <p class="username"><a style="color:black" href="">modern_web_channel</a></p>
                     </div>
 
 
@@ -72,8 +72,8 @@ Accueil
             <div class="post ">
                 <div class="info">
                     <div class="user">
-                        <div class="profile-pic"><img src="img/img1.jpg" alt=""></div>
-                        <p class="username">modern_web_channel</p>
+                        <div class="profile-pic"><a href=""><img src="img/img1.jpg" alt=""></a></div>
+                        <p class="username"><a style="color:black" href="">modern_web_channel</a></p>
                     </div>
                     <a
                style="text-decoration: none;"    class="nav-link dropdown-toggle hidden-arrow"
@@ -110,7 +110,7 @@ Accueil
                 <div id="re001" style="display: none;">
                 <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos quidem molestias est cumque aliquid nostrum, et fuga suscipit officiis accusantium.</p>
                 <a href="javascript:document.getElementById('re001').style.display='none';document.getElementById('re001').releaseCapture();">
-                 <u>FERMER</u></a>
+                 <u>Fermer</u></a>
                  </div>
               </div>
 

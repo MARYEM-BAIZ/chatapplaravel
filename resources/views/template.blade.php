@@ -52,17 +52,9 @@
     <!-- Center elements -->
     <ul class="navbar-nav flex-row d-none d-md-flex">
       <li class="nav-item me-3 me-lg-1 active">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="{{route('accueil.accueil')}}">
           <span><i class="fas fa-home fa-lg"></i></span>
           <span class="badge rounded-pill badge-notification bg-danger">1</span>
-        </a>
-      </li>
-
-    
-
-      <li class="nav-item me-3 me-lg-1">
-        <a class="nav-link" href="#">
-          <span><i class="fas fa-video fa-lg"></i></span>
         </a>
       </li>
 
@@ -73,14 +65,20 @@
           <span><i class="fas fa-users fa-lg"></i></span>
           <span class="badge rounded-pill badge-notification bg-danger">2</span>
         </a>
+        
       </li>
     </ul>
+
+
+    
+
+
     <!-- Center elements -->
 
     <!-- Right elements -->
     <ul class="navbar-nav flex-row">
       <li class="nav-item me-3 me-lg-1">
-        <a class="nav-link d-sm-flex align-items-sm-center" href="#">
+        <a class="nav-link d-sm-flex align-items-sm-center" href="{{route('profile.profile')}}">
           <img
             src="https://mdbootstrap.com/img/new/avatars/1.jpg"
             class="rounded-circle"
@@ -98,31 +96,13 @@
       </li>
       <li class="nav-item dropdown me-3 me-lg-1">
         <a
-          class="nav-link dropdown-toggle hidden-arrow"
-          href="#"
-          id="navbarDropdownMenuLink"
-          role="button"
-          data-mdb-toggle="dropdown"
-          aria-expanded="false"
+          class="nav-link"
+          href="{{route('discussion.discussion')}}"
         >
           <i class="fas fa-comments fa-lg"></i>
 
           <span class="badge rounded-pill badge-notification bg-danger">6</span>
         </a>
-        <ul
-          class="dropdown-menu dropdown-menu-end"
-          aria-labelledby="navbarDropdownMenuLink"
-        >
-          <li>
-            <a class="dropdown-item" href="#">Some news</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Another news</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </li>
-        </ul>
       </li>
       <li class="nav-item dropdown me-3 me-lg-1">
         <a
@@ -167,13 +147,10 @@
           aria-labelledby="navbarDropdownMenuLink"
         >
           <li>
-            <a class="dropdown-item" href="#">Some news</a>
+            <a class="dropdown-item" href="{{route('profile.profile')}}">Paramétres</a>
           </li>
           <li>
-            <a class="dropdown-item" href="#">Another news</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="#">Déconnexion</a>
           </li>
         </ul>
       </li>

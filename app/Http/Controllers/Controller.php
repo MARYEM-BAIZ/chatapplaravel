@@ -54,6 +54,12 @@ class Controller extends BaseController
 
     }
 
+    public function invitation(){
+
+        return view('invitation');
+
+    }
+
     
 
     
