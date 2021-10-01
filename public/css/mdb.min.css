@@ -326,10 +326,7 @@
 
    /* css du page register */
 
-  
-   /* css du page login */
-
-  .btn{
+   .btnregister{
     transition: all .5s ease;
     border-radius: 30px;
     color:var(--mdb-blue);
@@ -337,9 +334,29 @@
     background-color: #fff;
     border: 1px solid var(--mdb-blue);
     margin-top: 1.5em;
-    /* margin-bottom: 1em; */
+    padding: 10px;
   }
-  .btn:hover, .btn:focus{
+  .btnregister:hover, .btnregister:focus{
+    background-color: var(--mdb-blue);
+    color:#fff;
+  }
+
+  
+
+
+   /* css du page login */
+
+  .btnlogin{
+    transition: all .5s ease;
+    border-radius: 30px;
+    color:var(--mdb-blue);
+    font-weight: 600;
+    background-color: #fff;
+    border: 1px solid var(--mdb-blue);
+    margin-top: 1.5em;
+    padding: 10px;
+  }
+  .btnlogin:hover, .btnlogin:focus{
     background-color: var(--mdb-blue);
     color:#fff;
   }
