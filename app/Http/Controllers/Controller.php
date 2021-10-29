@@ -60,6 +60,12 @@ class Controller extends BaseController
 
     }
 
+    public function comment(){
+
+        return view('comment');
+
+    }
+
     
 
     

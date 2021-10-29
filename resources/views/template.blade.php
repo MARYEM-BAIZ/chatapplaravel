@@ -57,7 +57,6 @@
           <span class="badge rounded-pill badge-notification bg-danger">1</span>
         </a>
       </li>
-
      
 
       <li class="nav-item me-3 me-lg-1">
@@ -222,6 +221,17 @@
      @yield('contenu')
    </section>
    </main>
+
+
+
+
+
+
+  
+
+
+
+
 
    <!-- footer -->
    

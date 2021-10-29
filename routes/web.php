@@ -37,3 +37,4 @@ Route::get('/discussion',['uses'=>'Controller@discussion','as'=>'discussion.disc
 Route::get('/register',['uses'=>'Controller@register','as'=>'register.register']);
 Route::get('/login',['uses'=>'Controller@login','as'=>'login.login']);
 Route::get('/invitation',['uses'=>'Controller@invitation','as'=>'invitation.invitation']);
+Route::get('/comment',['uses'=>'Controller@comment','as'=>'comment.comment']);

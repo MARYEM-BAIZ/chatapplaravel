@@ -44,76 +44,8 @@ Invitations
 
 
 
-<div class="page-content page-container" id="page-content">
-    <div class="padding">
-        <div class="row">
-            <div class="col-sm-8">
-                <div class="container-fluid d-flex justify-content-center">
-                    <div class="list list-row card" id="sortable" data-sortable-id="0" aria-dropeffect="move">
-                        <div class="list-item" data-id="13" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false" style="">
-                        <div><a href="#" data-abc="true"><img style="border-radius:50%; width:40px;height:40px" src="img/img1.jpg" alt="."></a></div>
-                            <div class="flex"> <a href="#" class="item-author text-color" data-abc="true">Patrick Linod</a>
-                                <div class="item-except text-muted text-sm h-1x">For what reason would it be advisable for me to think about business content?</div>
-                            </div>
-                            <div class="no-wrap">
-                                <div class="item-date text-muted text-sm d-none d-md-block">3 weeks ago</div>
-                            </div>
-                            
-                        </div>
-                        <div class="list-item" data-id="9" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false">
-                            <div><a href="#" data-abc="true"><img style="border-radius:50%; width:40px;height:40px" src="img/img1.jpg" alt="."></a></div>
-                            <div class="flex"> <a href="#" class="item-author text-color" data-abc="true">Steven Hmpire</a>
-                                <div class="item-except text-muted text-sm h-1x">Build a progressive web app using jQuery</div>
-                            </div>
-                            <div class="no-wrap">
-                                <div class="item-date text-muted text-sm d-none d-md-block">2 days ago</div>
-                            </div>
-                            
-                        </div>
-                        <div class="list-item" data-id="17" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false" style="">
-                        <div><a href="#" data-abc="true"><img style="border-radius:50%; width:40px;height:40px" src="img/img1.jpg" alt="."></a></div>
-                            <div class="flex"> <a href="#" class="item-author text-color" data-abc="true">Alan musk</a>
-                                <div class="item-except text-muted text-sm h-1x">it be advisable for me to think about business content?</div>
-                            </div>
-                            <div class="no-wrap">
-                                <div class="item-date text-muted text-sm d-none d-md-block">13/12 18</div>
-                            </div>
-                            
-                        </div>
-                        <div class="list-item" data-id="8" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false">
-                            <div><a href="#" data-abc="true"><img style="border-radius:50%; width:40px;height:40px" src="img/img1.jpg" alt="."></a></div>
-                            <div class="flex"> <a href="#" class="item-author text-color" data-abc="true">Lawrence Telon</a>
-                                <div class="item-except text-muted text-sm h-1x">For what reason would it be advisable for me to think</div>
-                            </div>
-                            <div class="no-wrap">
-                                <div class="item-date text-muted text-sm d-none d-md-block">02/11 18</div>
-                            </div>
-                            
-                        </div>
-                        <div class="list-item" data-id="10" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false" style="">
-                            <div><a href="#" data-abc="true"><img style="border-radius:50%; width:40px;height:40px" src="img/img1.jpg" alt="."></a></div>
-                            <div class="flex"> <a href="#" class="item-author text-color" data-abc="true">Stuart Clark</a>
-                                <div class="item-except text-muted text-sm h-1x">For what reason would, i think about business content?</div>
-                            </div>
-                            <div class="no-wrap">
-                                <div class="item-date text-muted text-sm d-none d-md-block">1 day ago</div>
-                            </div>
-                          
-                        </div>
-                        <div class="list-item" data-id="3" data-item-sortable-id="0" draggable="true" role="option" aria-grabbed="false">
-                            <div><a href="#" data-abc="true"><img style="border-radius:50%; width:40px;height:40px" src="img/img1.jpg" alt="."></a></div>
-                            <div class="flex"> <a href="#" class="item-author text-color" data-abc="true">Jordan Stephens</a>
-                                <div class="item-except text-muted text-sm h-1x">For what reason would it be advisable for me to think about business</div>
-                            </div>
-                            <div class="no-wrap">
-                                <div class="item-date text-muted text-sm d-none d-md-block">1 hour ago</div>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
+
+
+
 @endsection
