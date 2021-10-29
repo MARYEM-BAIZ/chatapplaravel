@@ -42,15 +42,15 @@ class Controller extends BaseController
 
     }
 
-    public function register(){
+    public function registerr(){
 
-        return view('register');
+        return view('registerr');
 
     }
 
-    public function login(){
+    public function loginn(){
 
-        return view('login');
+        return view('loginn');
 
     }
 
@@ -69,12 +69,6 @@ class Controller extends BaseController
     public function publier(){
 
         return view('publier');
-
-    }
-
-    public function firstview(){
-
-        return view('firstview');
 
     }
     
