@@ -89,7 +89,7 @@
         </a>
       </li>
       <li class="nav-item me-3 me-lg-1">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="{{route('publier.publier')}}">
           <span><i class="fas fa-plus-circle fa-lg"></i></span>
         </a>
       </li>

@@ -1,8 +1,6 @@
 <?php
 
-use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
-use Inertia\Inertia;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,25 +14,11 @@ use Inertia\Inertia;
 */
 
 Route::get('/', function () {
-    return Inertia::render('Welcome', [
-        'canLogin' => Route::has('login'),
-        'canRegister' => Route::has('register'),
-        'laravelVersion' => Application::VERSION,
-        'phpVersion' => PHP_VERSION,
-    ]);
+    return view('welcome');
 });
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return Inertia::render('Dashboard');
-})->name('dashboard');
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
 
-/* ########################### */
-
-Route::get('/template',['uses'=>'Controller@template','as'=>'template.template']);
-Route::get('/accueil',['uses'=>'Controller@accueil','as'=>'accueil.accueil']);
-Route::get('/profile',['uses'=>'Controller@profile','as'=>'profile.profile']);
-Route::get('/discussion',['uses'=>'Controller@discussion','as'=>'discussion.discussion']);
-Route::get('/register',['uses'=>'Controller@register','as'=>'register.register']);
-Route::get('/login',['uses'=>'Controller@login','as'=>'login.login']);
-Route::get('/invitation',['uses'=>'Controller@invitation','as'=>'invitation.invitation']);
-Route::get('/comment',['uses'=>'Controller@comment','as'=>'comment.comment']);
+require __DIR__.'/auth.php';

@@ -66,6 +66,17 @@ class Controller extends BaseController
 
     }
 
+    public function publier(){
+
+        return view('publier');
+
+    }
+
+    public function firstview(){
+
+        return view('firstview');
+
+    }
     
 
     

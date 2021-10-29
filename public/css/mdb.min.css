@@ -559,4 +559,11 @@ list-item {
 }
 
 
+
+   /* css du page publier */
+
+.btnpubier{
+  background-color: var(--mdb-blue);
+}
+
   
