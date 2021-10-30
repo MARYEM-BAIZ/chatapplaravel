@@ -1,46 +1,81 @@
 <x-guest-layout>
-    <x-auth-card>
-        <x-slot name="logo">
-            <a href="/">
-                <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
-            </a>
-        </x-slot>
+    
+        <!-- <x-slot name="logo">
+           
+        </x-slot> -->
 
         <!-- Validation Errors -->
         <x-auth-validation-errors class="mb-4" :errors="$errors" />
 
-        <form method="POST" action="{{ route('register') }}">
+
+
+        <div style="margin-top: 100px;width: 500px;" class="card border-0 shadow rounded-3 mx-auto">
+          <div style="padding:40px;">
+            <h5 style="text-align:center;font-size: 20px"  class=" mb-5  ">S'inscrire</h5>
+
+        <form method="POST" action="{{ route('register') }}" enctype="multipart/form-data">
             @csrf
 
             <!-- Name -->
-            <div>
-                <x-label for="name" :value="__('Name')" />
+            <div style="margin-bottom: 30px;">
+                <x-label class="mb-2" for="name" :value="__('Name')" />
 
-                <x-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus />
+                <x-input style=" border-radius: 30px; padding: 10px;" id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus />
+            </div>
+
+            <!-- type d'utilisateur -->
+            <div style="margin-bottom: 30px;">
+            <x-label class="mb-2" for="typeuser" :value="__('Type utilisateur')" />
+            <select name="typeutilisateur" style=" border-radius: 30px; border-color:gray; width:100%;padding: 10px;" class="form-select" aria-label="Default select example">
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            </div>
+
+            <!-- groupe -->
+            <div style="margin-bottom: 30px;">
+            <x-label class="mb-2" for="groupe" :value="__('Groupe')" />
+            <select name="groupe" style=" border-radius: 30px; border-color:gray; width:100%;padding: 10px;" class="form-select" aria-label="Default select example">
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            </div>
+
+            
+
+
+            <!-- phtoto du profile -->
+            <div style="margin-bottom: 30px;">
+            <x-label class="mb-2" for="phtoto du profile" :value="__('Phtoto du profile')" />
+            
+            <x-input type="file" class="form-control " name="photoduprofile" :value="old('photoduprofile')" />
             </div>
 
             <!-- Email Address -->
-            <div class="mt-4">
-                <x-label for="email" :value="__('Email')" />
+            <div style="margin-bottom: 30px;">
+                <x-label class="mb-2" for="email" :value="__('Email')" />
 
-                <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required />
+                <x-input style=" border-radius: 30px; padding: 10px;" id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required />
             </div>
+            
 
             <!-- Password -->
-            <div class="mt-4">
-                <x-label for="password" :value="__('Password')" />
+            <div style="margin-bottom: 30px;">
+                <x-label class="mb-2" for="password" :value="__('Password')" />
 
-                <x-input id="password" class="block mt-1 w-full"
+                <x-input style=" border-radius: 30px; padding: 10px;" id="password" class="block mt-1 w-full"
                                 type="password"
                                 name="password"
                                 required autocomplete="new-password" />
             </div>
 
             <!-- Confirm Password -->
-            <div class="mt-4">
-                <x-label for="password_confirmation" :value="__('Confirm Password')" />
+            <div >
+                <x-label class="mb-2" for="password_confirmation" :value="__('Confirm Password')" />
 
-                <x-input id="password_confirmation" class="block mt-1 w-full"
+                <x-input style=" border-radius: 30px; padding: 10px;" id="password_confirmation" class="block mt-1 w-full"
                                 type="password"
                                 name="password_confirmation" required />
             </div>
@@ -50,10 +85,14 @@
                     {{ __('Already registered?') }}
                 </a>
 
-                <x-button class="ml-4">
+                <x-button style=" border-radius: 30px; padding: 15px; " class="ml-4">
                     {{ __('Register') }}
                 </x-button>
             </div>
         </form>
-    </x-auth-card>
+        </div>
+        </div>
+
+
+    
 </x-guest-layout>

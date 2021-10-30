@@ -203,7 +203,7 @@
             <a class="dropdown-item" href="{{route('profile.profile')}}">Paramétres/Profile</a>
           </li>
           <li>
-            <a class="dropdown-item" href="#">Déconnexion</a>
+            <a class="dropdown-item" href="{{route('pagelogout.pagelogout')}}">Déconnexion</a>
           </li>
         </ul>
       </li>

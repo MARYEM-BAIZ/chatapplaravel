@@ -17,7 +17,7 @@
         
         <div style="margin-top: 100px;width: 500px;" class="card border-0 shadow rounded-3 mx-auto">
           <div style="padding:40px;">
-            <h5 style="text-align:center;font-size: 20px"  class=" my-5  ">Se connecter</h5>
+            <h5 style="text-align:center;font-size: 20px"  class=" mb-5  ">Se connecter</h5>
         
         <form method="POST" action="{{ route('login') }}">
             @csrf
@@ -43,21 +43,20 @@
                     <span class="ml-2 text-sm text-gray-600">{{ __('Remember me') }}</span>
                 </label>
 
-                <div class="flex items-center justify-end mt-5 ">
-                @if (Route::has('password.request'))
+               
+
+            </div>
+
+            <div class="flex items-center justify-end mt-4">
+               
+            @if (Route::has('password.request'))
                     <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('password.request') }}">
                         {{ __('Forgot your password?') }}
                     </a>
                 @endif
-                </div>
 
-            </div>
-
-            <div class=" mt-4">
-               
-
-                <x-button style=" border-radius: 30px; padding: 15px; width:100%; " >
-                    {{ __('Log in') }}
+                <x-button style=" border-radius: 30px; padding: 15px; " class="ml-4" >
+                                       {{ __('Log in') }}
                 </x-button>
             </div>
         </form>

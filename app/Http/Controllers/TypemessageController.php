@@ -8,6 +8,7 @@ use App\Models\User;
 use App\Models\Typeuser;
 use App\Models\Message;
 use App\Models\Filiere;
+use App\Http\Controllers\Auth;
 
 class TypemessageController extends Controller
 {
